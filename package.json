@@ -18,5 +18,10 @@
   "homepage": "https://github.com/Gqiven/TS-Tools#readme",
   "dependencies": {
     "axios": "^0.26.1"
+  },
+  "devDependencies": {
+    "vue": "^3.2.32",
+    "vue-router": "^4.0.14",
+    "vuex": "^4.0.2"
   }
 }
