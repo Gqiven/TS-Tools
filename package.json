@@ -1,0 +1,22 @@
+{
+  "name": "ts-tools",
+  "version": "1.0.0",
+  "description": "some tools of typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gqiven/TS-Tools.git"
+  },
+  "author": "xqw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gqiven/TS-Tools/issues"
+  },
+  "homepage": "https://github.com/Gqiven/TS-Tools#readme",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
