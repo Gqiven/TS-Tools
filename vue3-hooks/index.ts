@@ -5,10 +5,13 @@ import useSessionStorageState from './useSessionStorageState'
 import useDebounce from './useDebounce'
 import useThrottle from './useThrottle'
 
+import useBoolean from './useBoolean'
+
 export {
   useCookieState,
   useLocalStorageState,
   useSessionStorageState,
   useDebounce,
-  useThrottle
+  useThrottle,
+  useBoolean
 }

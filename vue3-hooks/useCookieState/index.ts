@@ -9,9 +9,7 @@ interface Options extends Cookies.CookieAttributes {
 }
 
 function useCookieState (key: string, options: Options = {}) {
-  // 假如有值，则直接返回
-  const cookieValue = Cookies.get(key);
-  const state: Ref = ref(cookieValue || '')
+  const state: Ref = ref('')
   const updateState = (
     newValue: State,
     newOptions: Cookies.CookieAttributes = {}
