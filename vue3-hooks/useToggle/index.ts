@@ -7,6 +7,7 @@ interface Actions<T> {
   set: (v: T) => void
 }
 
+function useToggle<T>(defaultValue: T): [T, Actions<T>]
 function useToggle<T, U>(defaultValue: T, reverseValue: U): [T | U, Actions<T | U>]
 
 function useToggle<D, R>(
