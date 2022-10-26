@@ -6,6 +6,7 @@ import useDebounce from './useDebounce'
 import useThrottle from './useThrottle'
 
 import useBoolean from './useBoolean'
+import useToggle from './useToggle'
 
 export {
   useCookieState,
@@ -13,5 +14,6 @@ export {
   useSessionStorageState,
   useDebounce,
   useThrottle,
-  useBoolean
+  useBoolean,
+  useToggle
 }
